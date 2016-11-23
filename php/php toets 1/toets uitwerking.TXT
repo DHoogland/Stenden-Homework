@@ -1,0 +1,53 @@
+<?php
+
+$string = '1234562249875322145601089981081324891';
+
+$even = 0;
+$twee = 0;
+$drie = 0;
+$vier = 0;
+
+for($i=0; $i<strlen($string); $i++){
+  if(!($string[$i] % 2))
+    $even++;
+    
+  if($string[$i] == '3')
+    $drie++;
+    
+  if($string[$i] == '4')
+    $vier++;
+    
+  if(($string[$i] == '2') && ($string[$i - 1] == '2'))
+    $twee++;
+  
+}
+
+echo "
+  String: ".$string."<br>
+  Even getallen :".$even."<br>
+  Aantal x drie :".$drie."<br>
+  Aantal x vier :".$vier."<br>
+  Aantal x 2 achter elkaar: ".$twee."<br>
+  ";
+      
+      
+echo "<br><br><br><br><hr><br><br><br><br>";
+
+$x1 = 0;
+$x2 = 10;
+
+for($j=0; $j<=5; $j++){
+  for($i=0; $i<=10; $i++){
+  
+    if(($i == $x1) || ($i == $x2))
+      echo "X";
+    else
+      echo "O";
+  }
+  
+  $x1++;
+  $x2--;
+  echo "<br>";
+}
+
+?>

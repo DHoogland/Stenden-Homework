@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Kampioenschap()
+comment1.params=b
+comment1.target=void\ addSchaatser(Schaatser)
+comment2.params=
+comment2.target=void\ aantalPunten()
+comment3.params=
+comment3.target=void\ stand()
+numComments=4

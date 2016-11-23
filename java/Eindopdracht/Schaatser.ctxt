@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=naam\ tijd500\ tijd1500\ tijd5000\ tijd10000
+comment0.target=Schaatser(java.lang.String,\ int,\ int,\ int,\ int)
+comment1.params=
+comment1.target=int\ getTijd500()
+comment2.params=
+comment2.target=int\ getTijd1500()
+comment3.params=
+comment3.target=int\ getTijd5000()
+comment4.params=
+comment4.target=int\ getTijd10000()
+comment5.params=
+comment5.target=int\ getPunten()
+comment6.params=
+comment6.target=java.lang.String\ getNaam()
+numComments=7

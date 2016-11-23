@@ -1,0 +1,55 @@
+body {
+	background-color: #000;
+}
+p {
+	color: #FFF;
+}
+
+h1 { color: #F0F72D; }
+h2 { color: red; }
+h3 { color: orange; }
+
+a {
+	color: #FFF;
+}
+a:hover {
+	color: #FFF;
+}
+a:active {
+	color: #FFF;
+}
+a:visited {
+	color: #FFF;
+}
+
+img {
+	border: 0;
+}
+
+#header{
+	padding-top:10px;
+	background-color:gray;
+	height:100px;
+}
+#footer{
+	margin-top:10px;
+	background-color:gray;
+	height:100px;
+}
+#container{
+	position: relative;
+	width: 100%;
+}
+.museum{
+	display: inline-block;
+    margin:0 auto;
+    width:300px;
+	padding-left:50px;
+}
+
+@media screen and (min-width:900px) {
+	body{
+		padding-left:20%;
+		padding-right:20%;
+	}
+}

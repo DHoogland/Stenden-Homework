@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=StockDemo()
+comment0.text=\r\n\ Create\ a\ StockManager\ and\ populate\ it\ with\ a\ few\r\n\ sample\ products.\r\n
+comment1.params=
+comment1.target=void\ demo()
+comment1.text=\r\n\ Provide\ a\ very\ simple\ demonstration\ of\ how\ a\ StockManager\r\n\ might\ be\ used.\ Details\ of\ one\ product\ are\ shown,\ the\r\n\ product\ is\ restocked,\ and\ then\ the\ details\ are\ shown\ again.\r\n
+comment2.params=id
+comment2.target=void\ showDetails(int)
+comment2.text=\r\n\ Show\ details\ of\ the\ given\ product.\ If\ found,\r\n\ its\ name\ and\ stock\ quantity\ will\ be\ shown.\r\n\ @param\ id\ The\ ID\ of\ the\ product\ to\ look\ for.\r\n
+comment3.params=id
+comment3.target=void\ sellProduct(int)
+comment3.text=\r\n\ Sell\ one\ of\ the\ given\ item.\r\n\ Show\ the\ before\ and\ after\ status\ of\ the\ product.\r\n\ @param\ id\ The\ ID\ of\ the\ product\ being\ sold.\r\n
+numComments=4
